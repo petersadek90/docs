@@ -39,7 +39,7 @@ jobs:
           creds: ${{ secrets.NONPROD_AZURE_CREDENTIALS }}
 
       - name: Check out repo
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
 
       - name: Get preview app info
         env:

@@ -39,7 +39,7 @@ jobs:
           exit 1 # prevents further steps from running
 
       - name: Checkout
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+        uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
 
       - name: Setup Node
         uses: actions/setup-node@56337c425554a6be30cdef71bf441f15be286854
